@@ -1,0 +1,36 @@
+input:invalid {
+  border: 2px solid red;
+  border-radius: 5px;
+}
+
+input:invalid:required {
+  background: rgb(245, 173, 173);
+}
+
+input:valid:required {
+  background: rgb(202, 248, 198);
+}
+
+input:valid {
+  border: 2px solid black;
+}
+
+.validation-form{
+  display: flex;
+  flex-direction: column;
+  width: 280px;
+  margin: 25px;
+  padding: 15px;
+  background: greenyellow;
+  border: 1px solid green;
+}
+label{
+  margin-top: 10px;
+}
+button{
+  margin-top: 10px;
+}
+
+body{
+  margin: 0;
+}
